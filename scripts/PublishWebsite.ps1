@@ -3,6 +3,8 @@
 
  # get the SCM URL to use with MSDeploy.  
  # by default this will be the second in the array.
+ # this is my first commit
+
  $msdeployurl = $website.EnabledHostNames[1]
 
  $publishProperties = @{'WebPublishMethod'='MSDeploy';
