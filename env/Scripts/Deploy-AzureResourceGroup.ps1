@@ -1,6 +1,7 @@
 ﻿#Requires -Version 3.0
 #Requires -Module AzureRM.Resources
 #Requires -Module Azure.Storage
+#first commit
 
 Param(
     [string] [Parameter(Mandatory=$true)] $ResourceGroupLocation,
